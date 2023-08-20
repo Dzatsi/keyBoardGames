@@ -13,8 +13,8 @@
 
 body {
     --color-primary: rgb(34, 34, 114);
-    --color-secondary: #f68e5f;
-    --color-tertiary: #ffeee6;    
+    --color-secondary: rgb(91, 91, 199);
+    --color-tertiary: seashell;    
 }
 
 /* Mise en forme des titres */
