@@ -6,5 +6,5 @@
  *********************************************************************************/
 
 // Déclaration des tableaux contenant les listes des mots proposés à l'utilisateur
-const listeMots = ["Leteta", "Pétunia", "Serviette", "Lenny", "Cachalot", "Boulevard", "Anticonstitutionnellement"]
+const listeMots = ["Leteta", "Pétunia", "Serviette", "Lenny", "Cachalot", "Boulevard", "Anticonstitutionnellement", "Olivier"]
 const listePhrases = ["Pas de panique !", "La vie, l'univers et le reste", "Merci pour le poisson", "j'aime mes parents", "Lenny est très charismatique"]
