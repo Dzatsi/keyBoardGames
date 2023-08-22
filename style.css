@@ -14,7 +14,7 @@
 body {
     --color-primary: rgb(34, 34, 114);
     --color-secondary: rgb(91, 91, 199);
-    --color-tertiary: seashell;    
+    --color-tertiary: seashell;  
 }
 
 /* Mise en forme des titres */
@@ -33,27 +33,26 @@ h2 {
 
 h3 {
     margin: 0.625rem;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--color-secondary);
 }
 
 /* Mise en forme des formulaires */
 input[type='radio'] {
-    filter: grayscale(1); /* Grayscale passe le bouton en niveau de gris */
+     filter: grayscale(1);/* Grayscale passe le bouton en niveau de gris */
 }
 
 
 input[type='text'],
 input[type='email'] {
     width: 100%;
-    margin-right: 10px;
-    padding: 5px;
+    margin-right: 0.625rem;
+    padding: 0.325rem;
     border: none;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 600;
-    font-size: 17px;
     color: var(--color-primary);
 }
 
@@ -64,12 +63,12 @@ input[type='email']::placeholder {
 }
 
 button {
-    padding: 5px;
+    padding: 0.325rem;
     border: none;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 1rem;
     color: var(--color-secondary);
     background-color: white;
 }
@@ -111,12 +110,12 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    min-width: 200px;
-    margin-bottom: 50px;
-    padding: 50px;
+    min-width: 12.5rem;
+    margin-bottom: 3.12rem;
+    padding: 3.12rem;
     text-align: center;
     color: white;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     border-radius: 30px;
     background-color: var(--color-secondary);
@@ -128,9 +127,9 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 30px;
+    padding: 1.82rem;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 1.1rem;
     color: white;
     background-color: var(--color-secondary);
 }
@@ -141,11 +140,11 @@ footer {
 
 /* Zone d'options */
 .optionSource {
-    margin: 20px;
+    margin: 1.4rem;
 }
 
 .optionSource input[type='radio']:not(:first-child) {
-    margin-left: 20px;
+    margin-left: 1.4rem;
 }
 
 /* Zone ou sera affiché le texte (mot ou phrase) à afficher */
@@ -154,11 +153,11 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 10px 0 10px 0;
-    padding: 20px;
+    margin: 0.625rem 0 0.625rem 0;
+    padding: 1.5rem;
     border-radius: 20px;
     background-color: white;
-    font-size: 30px;
+    font-size: 1.82rem;
     font-weight: 600;
     color: var(--color-primary);
 }
@@ -168,7 +167,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
 }
 
 /* Eléments du formulaire de saisie */
@@ -181,11 +180,11 @@ footer {
 }
 
 .zoneScore {
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .zonePartage {
-    padding-top: 20px;
+    padding-top: 1.4rem;
 }
 
 /**
@@ -208,13 +207,13 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    padding: 20px;
+    width: 18.75rem;
+    padding: 1.4rem;
     text-align: center;
     color: white;
-    font-size: 17px;
+    font-size: 1.1rem;
     font-weight: 500;
-    background-color: #f76c5e;
+    background-color: #6b5ef7;
     border-radius: 30px;
     z-index: 1;
 }
