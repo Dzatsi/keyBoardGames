@@ -45,7 +45,7 @@ input[type='email'] {
     color: var(--color-primary);
 }
 header {
-   width: 100%;
+   /* width: 100%; */
    padding: 1.1rem;
 }
 main {
