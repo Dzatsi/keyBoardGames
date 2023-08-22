@@ -16,20 +16,20 @@
 @media screen and (max-width: 900px) {
     h1 {
         margin: 0 auto;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
         color: var(--color-primary);
     }  
     h2 {
         margin: 0 auto;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: 600;
         color: var(--color-secondary);
     }
     
     h3 {
         margin: 0 auto;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         font-weight: 500;
         color: var(--color-secondary);
     }
