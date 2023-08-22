@@ -16,13 +16,13 @@
 @media screen and (max-width: 900px) {
     h1 {
         margin: 0 auto;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         color: var(--color-primary);
     }  
     h2 {
         margin: 0 auto;
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         font-weight: 600;
         color: var(--color-secondary);
     }
@@ -49,7 +49,7 @@ header {
    padding: 1.1rem;
 }
 main {
-    width: 95%;
+    width: 100%;
     padding: 0.625rem;
 }
 footer {
