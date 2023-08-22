@@ -126,14 +126,7 @@ function lancerJeu() {
 
 
     afficherProposition(listeProposition[i])
-    // gestion de l'événement d'appui sue la touch "Enter" du clavier
-    inputEcriture.addEventListener('keypress', (event) =>{
-        if(event.key === 'Enter'){
-            validerMot();
-        }
-    })
-
-    // Gestion de l'événement click sur le bouton "valider"
+    // fonction pour validation d'un mot ou une phrase
     const validerMot = function(){
         if (inputEcriture.value === listeProposition[i]) {
             score++
@@ -154,8 +147,16 @@ function lancerJeu() {
             afficherProposition(listeProposition[i])
         }
     }
+
+    // gestion de l'événement d'appui sue la touch "Enter" du clavier
+    inputEcriture.addEventListener('keypress', (event) =>{
+        if(event.key === 'Enter'){
+            validerMot();
+        }
+    })
+
     
-    
+   // Gestion de l'événement click sur le bouton "valider" 
     btnValiderMot.addEventListener("click", validerMot)
        
     
