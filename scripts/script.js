@@ -47,7 +47,7 @@ function afficherEmail(nom, email, score) {
  */
 function validerNom(nom) {
     if (nom.length < 2) {
-        throw new Error("Le nom est trop court. ")
+        throw new Error("taper un nom valide s'il vous plaît !")
     }
     
 }
