@@ -19,20 +19,20 @@ body {
 
 /* Mise en forme des titres */
 h1 {
-    margin: 10px;
-    font-size: 60px;
+    margin: 0.625rem;
+    font-size: 3.3rem;
     font-weight: 900;
     color: var(--color-primary);
 }  
 h2 {
-    margin: 10px;
+    margin: 0.625rem;
     font-size: 30px;
     font-weight: 600;
     color: var(--color-secondary);
 }
 
 h3 {
-    margin: 10px;
+    margin: 0.625rem;
     font-size: 17px;
     font-weight: 500;
     color: var(--color-secondary);

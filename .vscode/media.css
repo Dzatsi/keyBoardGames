@@ -1,3 +1,22 @@
 @media screen and (max-width: 900px) {
+    h1 {
+        margin: 0.625rem;
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--color-primary);
+    }  
+    h2 {
+        margin: 0.625rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--color-secondary);
+    }
+    
+    h3 {
+        margin: 10px;
+        font-size: 17px;
+        font-weight: 500;
+        color: var(--color-secondary);
+    }
     
 }
