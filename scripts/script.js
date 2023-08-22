@@ -126,9 +126,15 @@ function lancerJeu() {
 
 
     afficherProposition(listeProposition[i])
+    // gestion de l'événement d'appui sue la touch "Enter" du clavier
+    inputEcriture.addEventListener('keypress', (event) =>{
+        if(event.key === 'Enter'){
+            validerMot();
+        }
+    })
 
     // Gestion de l'événement click sur le bouton "valider"
-    btnValiderMot.addEventListener("click", () => {
+    const validerMot = function(){
         if (inputEcriture.value === listeProposition[i]) {
             score++
         }
@@ -143,12 +149,16 @@ function lancerJeu() {
             for (let indexBtnRadio = 0; indexBtnRadio < listeBtnRadio.length; indexBtnRadio++) {
                 listeBtnRadio[indexBtnRadio].disabled = true
             }
-
+        
         } else {
             afficherProposition(listeProposition[i])
         }
-    })
-
+    }
+    
+    
+    btnValiderMot.addEventListener("click", validerMot)
+       
+    
     // Gestion de l'événement change sur les boutons radios. 
     
     for (let index = 0; index < listeBtnRadio.length; index++) {
@@ -165,6 +175,7 @@ function lancerJeu() {
             afficherProposition(listeProposition[i])
         })
     }
+    
 
     // Gestion de l'événement submit sur le formulaire de partage. 
     let form = document.querySelector("form")
