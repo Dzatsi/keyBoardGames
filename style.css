@@ -243,25 +243,3 @@ footer {
 .popup button {
     margin: 5px;
 }
-
-/** 
- * Responsive
- */
-
-
- /* En dessous de 1200 px */
-@media screen and (max-width: 1200px) {
-    main {
-        width: 60%;
-        padding: 30px;
-    }
-}
-
-
-/* En dessous de 800 px */
-@media screen and (max-width: 800px) {
-    main {
-        width: 90%;
-        padding: 10px;
-    }
-}

@@ -1,20 +1,35 @@
+
+/** 
+ * Responsive
+ */
+
+ /* En dessous de 1200 px */
+ /* @media screen and (max-width: 1200px) {
+    main {
+        width: 60%;
+        padding: 30px;
+    }
+} */
+
+
+/* En dessous de 900 px */
 @media screen and (max-width: 900px) {
     h1 {
-        margin: 0.625rem;
-        font-size: 3rem;
+        margin: 0 auto;
+        font-size: 2rem;
         font-weight: bold;
         color: var(--color-primary);
     }  
     h2 {
-        margin: 0.625rem;
-        font-size: 2rem;
+        margin: 0 auto;
+        font-size: 1.3rem;
         font-weight: 600;
         color: var(--color-secondary);
     }
     
     h3 {
-        margin: 0.625rem;
-        font-size: 1rem;
+        margin: 0 auto;
+        font-size: 0.7rem;
         font-weight: 500;
         color: var(--color-secondary);
     }
@@ -28,6 +43,17 @@ input[type='email'] {
     font-size: 1rem;
     font-weight: 600;
     color: var(--color-primary);
+}
+header {
+   width: 100%;
+}
+main {
+    width: 95%;
+    padding: 0.625rem;
+}
+footer {
+    width: 100%;
+    padding: 1.7re
 }
 .optionSource {
     margin: 1.2rem;
